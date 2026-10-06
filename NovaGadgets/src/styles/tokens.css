@@ -1,0 +1,34 @@
+/* Valores compartidos: usar estas variables en los CSS de cada pantalla. */
+:root {
+  /* Fondos y bordes */
+  --color-fondo: #151719;
+  --color-panel: #202427;
+  --color-borde: #454c52;
+
+  /* Texto */
+  --color-texto: #f2f3ef;
+  --color-texto-secundario: #b7bdc3;
+
+  /* Colores de la marca */
+  --color-amarillo: #fce803;
+  --color-morado: #8651b6;
+  --color-morado-borde: #a77ad6;
+  --color-morado-texto: #d4b7f2;
+  --color-texto-sobre-amarillo: #151719;
+  --color-texto-sobre-morado: #ffffff;
+
+  /* Mensajes y validación */
+  --color-exito: #86d4a0;
+  --color-error: #ff9393;
+  --color-aviso: #f2cf76;
+
+  /* Tipografía y medidas */
+  --fuente-principal: 'Space Grotesk', Arial, sans-serif;
+  --ancho-contenido: 1200px;
+  --radio-panel: 4px;
+  --radio-capsula: 999px;
+
+  /* Luz suave para los botones */
+  --luz-amarilla: 0 0 24px rgb(252 232 3 / 24%);
+  --luz-morada: 0 0 24px rgb(134 81 182 / 30%);
+}

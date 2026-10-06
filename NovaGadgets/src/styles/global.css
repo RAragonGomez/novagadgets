@@ -1,0 +1,126 @@
+/* Base común de todas las pantallas. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente-principal);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+img,
+svg {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img {
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Foco visible para navegar con el teclado. */
+:focus-visible {
+  outline: 2px solid var(--color-morado-borde);
+  outline-offset: 4px;
+}
+
+/* Clase opcional para centrar el contenido de una pantalla. */
+.contenedor {
+  width: min(var(--ancho-contenido), calc(100% - 32px));
+  margin-inline: auto;
+}
+
+/* Clases compartidas para botones o enlaces con aspecto de botón. */
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 24px;
+  border: 1px solid transparent;
+  border-radius: var(--radio-capsula);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease,
+    border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.boton--principal {
+  background: var(--color-amarillo);
+  color: var(--color-texto-sobre-amarillo);
+  box-shadow: var(--luz-amarilla);
+}
+
+.boton--secundario {
+  border-color: var(--color-morado-borde);
+  background: transparent;
+  color: var(--color-morado-texto);
+}
+
+@media (hover: hover) {
+  .boton--principal:not(:disabled):hover,
+  .boton--secundario:not(:disabled):hover {
+    border-color: var(--color-morado);
+    background: var(--color-morado);
+    color: var(--color-texto-sobre-morado);
+    box-shadow: var(--luz-morada);
+  }
+}
+
+.boton:disabled {
+  border-color: var(--color-borde);
+  background: var(--color-panel);
+  color: var(--color-texto-secundario);
+  box-shadow: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boton {
+    transition: none;
+  }
+}
