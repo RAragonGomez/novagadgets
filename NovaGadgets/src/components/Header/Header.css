@@ -1,0 +1,80 @@
+.header{
+    border-bottom: 1px solid var(--color-border);
+    padding: 16px 0;
+}
+
+.header__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.header__menu{
+    display: flex;
+    gap: 16px;
+}
+
+.header__menu a{
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.header__busqueda{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__busqueda input{
+    width: 180px;
+    min-width: 0;
+    padding: 8px 12px;
+    border: 1px solid var(--color-borde);
+    border-radius: 4px;
+    background: var(--color-panel);
+    color: var(--color-texto);
+}
+
+.header__busqueda label{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.header__logo{
+    flex-shrink: 0;
+}
+
+.header__logo img{
+    display: block;
+    width: 160px;
+    height: auto;
+}
+
+.header__busqueda input::placeholder{
+    color: var(--color-texto-secundario);
+}
+
+.header__busqueda button,
+.header__carrito{
+    padding: 8px 14px;
+    border: 1px solid var(--color-morado-borde);
+    border-radius: var(--radio-capsula);
+    background: transparent;
+    color: var(--color-morado-texto);
+}
+
+.header__busqueda button:hover,
+.header__carrito:hover{
+    background: var(--color-morado);
+    color: var(--color-texto-sobre-morado);
+    box-shadow: var(--luz-morada);
+}

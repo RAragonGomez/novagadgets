@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="176" viewBox="0 0 192 176" role="img" aria-labelledby="title">
+<title id="title">Nova Gadgets — símbolo NG</title>
+<g id="Simbolo-NG" transform="translate(6 6)">
+<path id="G-superior" fill="#EACB38" d="M38 43 L65 16 L178 16 L157 39 L82 39 L69 67 Z"/>
+<path id="G-inferior" fill="#EACB38" d="M76 130 L125 130 L153 107 L153 78 L111 78 L96 94 L133 94 L133 102 L119 113 L78 113 L44 92 L36 108 Z"/>
+<path id="N-principal" fill="#9861CE" d="M12 31 L64 65 L68 44 L94 44 L87 117 L35 83 L29 145 L5 126 Z"/>
+<path id="N-faceta" fill="#70449E" d="M12 31 L23 51 L15 124 L29 145 L5 126 Z"/>
+<path id="N-corte" fill="#B880E8" d="M35 83 L87 117 L88 105 L39 73 Z"/>
+</g>
+</svg>
