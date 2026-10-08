@@ -1,44 +1,71 @@
-.header{
-    border-bottom: 1px solid var(--color-border);
-    padding: 16px 0;
+.header {
+    border-bottom: 1px solid var(--color-borde);
+    padding: 14px 0;
 }
 
-.header__contenido{
+.header__contenido {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.header__menu{
+.header__logo {
+    flex-shrink: 0;
+}
+
+.header__logo img {
+    display: block;
+    width: 160px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.header__menu {
     display: flex;
-    gap: 16px;
+    align-items: center;
+    gap: 18px;
 }
 
-.header__menu a{
+.header__menu a {
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
     text-decoration: none;
     font-size: 14px;
     white-space: nowrap;
 }
 
-.header__busqueda{
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.header__menu a[aria-current='page'] {
+    color: var(--color-amarillo);
+    border-color: var(--color-amarillo);
 }
 
-.header__busqueda input{
-    width: 180px;
-    min-width: 0;
-    padding: 8px 12px;
+.header__busqueda {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    min-width: 140px;
     border: 1px solid var(--color-borde);
     border-radius: 4px;
     background: var(--color-panel);
-    color: var(--color-texto);
 }
 
-.header__busqueda label{
+.header__busqueda input {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    color: var(--color-texto);
+    font-size: 13px;
+}
+
+.header__busqueda input::placeholder {
+    color: var(--color-texto-secundario);
+}
+
+/* El lector de pantalla puede leer la etiqueta aunque no se vea. */
+.header__busqueda label {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -49,32 +76,112 @@
     white-space: nowrap;
 }
 
-.header__logo{
-    flex-shrink: 0;
-}
-
-.header__logo img{
-    display: block;
-    width: 160px;
-    height: auto;
-}
-
-.header__busqueda input::placeholder{
-    color: var(--color-texto-secundario);
-}
-
 .header__busqueda button,
-.header__carrito{
-    padding: 8px 14px;
+.header__carrito,
+.header__boton-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
     border: 1px solid var(--color-morado-borde);
     border-radius: var(--radio-capsula);
     background: transparent;
     color: var(--color-morado-texto);
+    font-size: 13px;
 }
 
-.header__busqueda button:hover,
-.header__carrito:hover{
-    background: var(--color-morado);
-    color: var(--color-texto-sobre-morado);
-    box-shadow: var(--luz-morada);
+.header__busqueda button {
+    flex-shrink: 0;
+    width: 44px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.header__carrito,
+.header__boton-menu {
+    padding: 8px 14px;
+    white-space: nowrap;
+}
+
+.header__carrito {
+    flex-shrink: 0;
+}
+
+/* Los SVG importados como imágenes no heredan el color del botón. */
+.header__busqueda img,
+.header__carrito img {
+    filter: brightness(0) invert(1);
+}
+
+.header__boton-menu {
+    display: none;
+}
+
+.header__aviso {
+    color: var(--color-texto-secundario);
+    font-size: 13px;
+}
+
+.header__aviso:not(:empty) {
+    padding-top: 12px;
+}
+
+@media (hover: hover) {
+    .header__menu a:hover {
+        color: var(--color-amarillo);
+    }
+
+    .header__busqueda button:hover,
+    .header__carrito:hover,
+    .header__boton-menu:hover {
+        background: var(--color-morado);
+        color: var(--color-texto-sobre-morado);
+        box-shadow: var(--luz-morada);
+    }
+}
+
+/* En tablet y móvil, el menú baja a una fila desplegable. */
+@media (max-width: 1100px) {
+    .header__contenido {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .header__logo {
+        margin-right: auto;
+    }
+
+    .header__boton-menu {
+        display: inline-flex;
+    }
+
+    .header__menu {
+        display: none;
+        order: 4;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 8px 24px;
+        padding-top: 8px;
+    }
+
+    .header__menu--abierto {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__logo img {
+        width: 140px;
+    }
+
+    .header__busqueda {
+        order: 5;
+        width: 100%;
+    }
+
+    .header__carrito,
+    .header__boton-menu {
+        padding-inline: 10px;
+    }
 }

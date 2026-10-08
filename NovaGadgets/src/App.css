@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+/* El contenido ocupa el espacio libre y deja el Footer al final. */
+.app__contenido {
+    flex: 1;
+}
