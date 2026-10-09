@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import Inicio from './pages/home/Inicio'
 import './App.css'
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     <div className="app">
       <Header />
       <main className="app__contenido">
-        {/* Aquí colocaremos las pantallas del proyecto. */}
+        <Inicio />
       </main>
       <Footer />
     </div>

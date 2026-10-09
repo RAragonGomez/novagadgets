@@ -1,0 +1,54 @@
+[
+  {
+    "id": "laptops",
+    "nombre": "Laptops",
+    "archivo": "src/assets/images/categories/laptops.webp",
+    "prompt": "Use case: product-mockup. Create ONE photorealistic ecommerce category image for NovaGadgets, a computer shop. This is a reusable small category thumbnail, so use a bold clear compact product silhouette with few objects and balanced hierarchy. Two modern laptops in a compact overlapping arrangement: a dark graphite gaming laptop in front open at a three-quarter angle, and a slim silver notebook slightly behind. Both screens show restrained blue and violet abstract wallpapers. Emphasize recognizable laptop silhouettes and keyboards. No extra accessories. Real transparent alpha background. Whole composition centered, fits a 4:3 canvas and fills 85% of it, with comfortable breathing room around all edges; absolutely no cropped objects. Soft neutral studio illumination with clear edge highlights, matching realistic computer catalog product cutouts on a charcoal #202427 UI. No external lettering, category labels, price tags, sales badges, poster layout, floor, scene, frames, checkerboard or white matte fringe. No floating decorative circuits or effects. Keep color restrained, product photography rather than illustration.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "dimensiones": [
+      1448,
+      1086
+    ],
+    "bytes": 175372
+  },
+  {
+    "id": "pc-escritorio",
+    "nombre": "PC de escritorio",
+    "archivo": "src/assets/images/categories/pc-escritorio.webp",
+    "prompt": "Use case: product-mockup. Create ONE photorealistic ecommerce category image for NovaGadgets, a computer shop. This is a reusable small category thumbnail, so use a bold clear compact product silhouette with few objects and balanced hierarchy. One black desktop PC tower with tempered glass side and three subtle blue-violet RGB front fans, next to a widescreen monitor on its stand displaying a clean blue-violet abstract wallpaper. Compact cohesive two-object arrangement, monitor to the left and tower to the right, equal visual prominence. No keyboard or mouse. Real transparent alpha background. Whole composition centered, fits a 4:3 canvas and fills 85% of it, with comfortable breathing room around all edges; absolutely no cropped objects. Soft neutral studio illumination with clear edge highlights, matching realistic computer catalog product cutouts on a charcoal #202427 UI. No external lettering, category labels, price tags, sales badges, poster layout, floor, scene, frames, checkerboard or white matte fringe. No floating decorative circuits or effects. Keep color restrained, product photography rather than illustration.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "dimensiones": [
+      1448,
+      1086
+    ],
+    "bytes": 184652
+  },
+  {
+    "id": "componentes",
+    "nombre": "Componentes",
+    "archivo": "src/assets/images/categories/componentes.webp",
+    "prompt": "Use case: product-mockup. Create ONE photorealistic ecommerce category image for NovaGadgets, a computer shop. This is a reusable small category thumbnail, so use a bold clear compact product silhouette with few objects and balanced hierarchy. A compact carefully composed group of computer components: a black motherboard with silver CPU socket standing behind, a dual-fan dark graphics card in front at a slight three-quarter angle, and one black RAM module beside it. Keep the three products distinct and recognizable without clutter. No retail packaging. Real transparent alpha background. Whole composition centered, fits a 4:3 canvas and fills 85% of it, with comfortable breathing room around all edges; absolutely no cropped objects. Soft neutral studio illumination with clear edge highlights, matching realistic computer catalog product cutouts on a charcoal #202427 UI. No external lettering, category labels, price tags, sales badges, poster layout, floor, scene, frames, checkerboard or white matte fringe. No floating decorative circuits or effects. Keep color restrained, product photography rather than illustration.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "dimensiones": [
+      1448,
+      1086
+    ],
+    "bytes": 289150
+  },
+  {
+    "id": "perifericos",
+    "nombre": "Periféricos",
+    "archivo": "src/assets/images/categories/perifericos.webp",
+    "prompt": "Use case: product-mockup. Create ONE photorealistic ecommerce category image for NovaGadgets, a computer shop. This is a reusable small category thumbnail, so use a bold clear compact product silhouette with few objects and balanced hierarchy. A compact carefully composed group of three computer peripherals: a black tenkeyless mechanical keyboard angled slightly toward the viewer, a black gaming mouse alongside it, and black over-ear headphones behind. Restrained purple key illumination, realistically manufactured materials. No additional objects. Real transparent alpha background. Whole composition centered, fits a 4:3 canvas and fills 85% of it, with comfortable breathing room around all edges; absolutely no cropped objects. Soft neutral studio illumination with clear edge highlights, matching realistic computer catalog product cutouts on a charcoal #202427 UI. No external lettering, category labels, price tags, sales badges, poster layout, floor, scene, frames, checkerboard or white matte fringe. No floating decorative circuits or effects. Keep color restrained, product photography rather than illustration.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "dimensiones": [
+      1448,
+      1086
+    ],
+    "bytes": 184718
+  }
+]

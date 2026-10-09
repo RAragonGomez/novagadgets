@@ -1,0 +1,130 @@
+.inicio {
+    padding-block: 40px 56px;
+}
+
+.inicio__presentacion {
+    margin-bottom: 32px;
+}
+
+.inicio__presentacion h1 {
+    margin: 0 0 12px;
+    font-size: 32px;
+}
+
+.inicio__presentacion p {
+    max-width: 65ch;
+    margin: 0;
+    color: var(--color-texto-secundario);
+}
+
+.inicio__categorias h2 {
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+
+.inicio__lista-categorias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.inicio__productos {
+    margin-top: 40px;
+}
+
+.inicio__encabezado-productos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.inicio__encabezado-productos h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.inicio__encabezado-productos a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--color-amarillo);
+    font-size: 14px;
+    white-space: nowrap;
+    text-underline-offset: 4px;
+}
+
+.inicio__lista-productos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.inicio__categoria {
+    min-width: 0;
+    padding: 16px;
+    border-radius: var(--radio-panel);
+    background: var(--color-panel);
+    text-decoration: none;
+}
+
+.inicio__categoria img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.inicio__categoria h3 {
+    margin: 0 0 8px;
+    font-size: 17px;
+}
+
+.inicio__categoria span {
+    color: var(--color-amarillo);
+    font-size: 14px;
+}
+
+@media (hover: hover) {
+    .inicio__categoria:hover span {
+        color: var(--color-morado-texto);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+}
+
+@media (max-width: 900px) {
+    .inicio__lista-categorias,
+    .inicio__lista-productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .inicio__lista-productos {
+        grid-template-columns: 1fr;
+    }
+
+    .inicio {
+        padding-block: 28px 40px;
+    }
+
+    .inicio__presentacion h1 {
+        font-size: 26px;
+    }
+
+    .inicio__lista-categorias {
+        gap: 12px;
+    }
+
+    .inicio__categoria {
+        padding: 12px;
+    }
+
+    .inicio__categoria h3 {
+        font-size: 16px;
+    }
+}

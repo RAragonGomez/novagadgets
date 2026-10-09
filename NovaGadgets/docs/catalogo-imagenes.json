@@ -1,0 +1,404 @@
+[
+  {
+    "id": "intel-core-i7",
+    "nombre": "Intel Core i7-12700F",
+    "categoria": "Procesadores",
+    "archivo": "intel-core-i7.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Intel blue Core i7 retail box. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "intel-core-i5-12400f",
+    "nombre": "Intel Core i5-12400F",
+    "categoria": "Procesadores",
+    "archivo": "intel-core-i5-12400f.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Intel blue Core i5 retail box. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "intel-core-i3-12100f",
+    "nombre": "Intel Core i3-12100F",
+    "categoria": "Procesadores",
+    "archivo": "intel-core-i3-12100f.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Intel blue Core i3 retail box. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "amd-ryzen-5-5600",
+    "nombre": "AMD Ryzen 5 5600",
+    "categoria": "Procesadores",
+    "archivo": "amd-ryzen-5-5600.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. AMD Ryzen 5 orange gray retail processor box. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "amd-ryzen-7-5700g",
+    "nombre": "AMD Ryzen 7 5700G",
+    "categoria": "Procesadores",
+    "archivo": "amd-ryzen-7-5700g.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. AMD Ryzen 7 retail processor box. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "asus-prime-placa",
+    "nombre": "ASUS Prime H610M-K D4",
+    "categoria": "Placas madre",
+    "archivo": "asus-prime-placa.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. ASUS Prime H610M-K D4 micro ATX motherboard. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "msi-pro-b760m-p",
+    "nombre": "MSI PRO B760M-P DDR4",
+    "categoria": "Placas madre",
+    "archivo": "msi-pro-b760m-p.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. MSI PRO B760M-P DDR4 motherboard. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "gigabyte-b550m-ds3h",
+    "nombre": "Gigabyte B550M DS3H",
+    "categoria": "Placas madre",
+    "archivo": "gigabyte-b550m-ds3h.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Gigabyte B550M DS3H motherboard. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "asus-tuf-b650-plus",
+    "nombre": "ASUS TUF Gaming B650-Plus",
+    "categoria": "Placas madre",
+    "archivo": "asus-tuf-b650-plus.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. ASUS TUF Gaming B650-Plus motherboard. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "kingston-fury-ram",
+    "nombre": "Kingston Fury Beast 16 GB DDR4",
+    "categoria": "Memorias RAM",
+    "archivo": "kingston-fury-ram.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Kingston Fury Beast black DDR4 memory module. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "corsair-vengeance-lpx",
+    "nombre": "Corsair Vengeance LPX 16 GB DDR4",
+    "categoria": "Memorias RAM",
+    "archivo": "corsair-vengeance-lpx.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Corsair Vengeance LPX black memory module. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "kingston-fury-ddr5",
+    "nombre": "Kingston Fury Beast 32 GB DDR5",
+    "categoria": "Memorias RAM",
+    "archivo": "kingston-fury-ddr5.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Kingston Fury Beast DDR5 two black modules. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "corsair-vengeance-rgb",
+    "nombre": "Corsair Vengeance RGB 32 GB DDR5",
+    "categoria": "Memorias RAM",
+    "archivo": "corsair-vengeance-rgb.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Corsair Vengeance RGB DDR5 two memory modules. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "kingston-nv3-ssd",
+    "nombre": "Kingston NV3 2 TB",
+    "categoria": "Almacenamiento",
+    "archivo": "kingston-nv3-ssd.webp",
+    "estado": "generada",
+    "prompt": "Photorealistic ecommerce cutout of Kingston NV3 2 TB M.2 SSD. One large centered product, realistic studio lighting, true transparent alpha, no advertising text, poster, floor or frame.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "samsung-990-evo",
+    "nombre": "Samsung 990 EVO 1 TB",
+    "categoria": "Almacenamiento",
+    "archivo": "samsung-990-evo.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Samsung 990 EVO M.2 SSD. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "wd-blue-sn580",
+    "nombre": "WD Blue SN580 1 TB",
+    "categoria": "Almacenamiento",
+    "archivo": "wd-blue-sn580.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. WD Blue SN580 M.2 SSD. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "crucial-bx500",
+    "nombre": "Crucial BX500 1 TB",
+    "categoria": "Almacenamiento",
+    "archivo": "crucial-bx500.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Crucial BX500 black 2.5 inch SATA SSD. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "geforce-rtx",
+    "nombre": "Gigabyte GeForce RTX 5060 Ti",
+    "categoria": "Tarjetas de video",
+    "archivo": "geforce-rtx.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Gigabyte Windforce RTX 5060 Ti dual fan graphics card. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "msi-rtx-4060",
+    "nombre": "MSI GeForce RTX 4060 Ventus",
+    "categoria": "Tarjetas de video",
+    "archivo": "msi-rtx-4060.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. MSI RTX 4060 Ventus dual fan graphics card. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "asus-radeon-rx7600",
+    "nombre": "ASUS Dual Radeon RX 7600",
+    "categoria": "Tarjetas de video",
+    "archivo": "asus-radeon-rx7600.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. ASUS Dual Radeon RX 7600 graphics card. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "gigabyte-rtx5070",
+    "nombre": "Gigabyte GeForce RTX 5070",
+    "categoria": "Tarjetas de video",
+    "archivo": "gigabyte-rtx5070.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Gigabyte RTX 5070 triple fan graphics card. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "antryx-fuente",
+    "nombre": "Antryx 650 W",
+    "categoria": "Fuentes de poder",
+    "archivo": "antryx-fuente.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Antryx 650W black ATX power supply. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "corsair-cx650",
+    "nombre": "Corsair CX650",
+    "categoria": "Fuentes de poder",
+    "archivo": "corsair-cx650.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Corsair CX650 black power supply. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "cooler-master-mwe750",
+    "nombre": "Cooler Master MWE 750",
+    "categoria": "Fuentes de poder",
+    "archivo": "cooler-master-mwe750.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Cooler Master MWE 750 power supply. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "cooler-master-gabinete",
+    "nombre": "Cooler Master MasterBox 520",
+    "categoria": "Gabinetes",
+    "archivo": "cooler-master-gabinete.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Cooler Master MasterBox 520 black glass PC case. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "nzxt-h5-flow",
+    "nombre": "NZXT H5 Flow",
+    "categoria": "Gabinetes",
+    "archivo": "nzxt-h5-flow.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. NZXT H5 Flow white PC case. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "promptCorreccion": "Precisely edit the supplied product cutout. Preserve the exact product, branding, shape, lighting, color and details. ONLY clean up its alpha matte: remove every stray opaque white and blue background fragment outside the true product silhouette, including the irregular white border around the perimeter and the white patches below/above it. Background must be genuinely fully transparent with clean softly antialiased product edges. Do not remove white areas belonging to the product itself. No added shadow, floor, outline or checkerboard. Keep the complete product visible; place it within a transparent canvas with a small 5% transparent breathing margin on each side."
+  },
+  {
+    "id": "corsair-4000d",
+    "nombre": "Corsair 4000D Airflow",
+    "categoria": "Gabinetes",
+    "archivo": "corsair-4000d.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Corsair 4000D Airflow black PC case. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "lenovo-loq",
+    "nombre": "Lenovo LOQ",
+    "categoria": "Laptops",
+    "archivo": "lenovo-loq.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Lenovo LOQ gray gaming laptop. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "asus-tuf-a15",
+    "nombre": "ASUS TUF Gaming A15",
+    "categoria": "Laptops",
+    "archivo": "asus-tuf-a15.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. ASUS TUF Gaming A15 laptop. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "hp-victus-15",
+    "nombre": "HP Victus 15",
+    "categoria": "Laptops",
+    "archivo": "hp-victus-15.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. HP Victus 15 dark blue laptop. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "acer-aspire-5",
+    "nombre": "Acer Aspire 5",
+    "categoria": "Laptops",
+    "archivo": "acer-aspire-5.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Acer Aspire 5 silver laptop. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true,
+    "promptCorreccion": "Precisely edit the supplied product cutout. Preserve the exact product, branding, shape, lighting, color and details. ONLY clean up its alpha matte: remove every stray opaque white and blue background fragment outside the true product silhouette, including the irregular white border around the perimeter and the white patches below/above it. Background must be genuinely fully transparent with clean softly antialiased product edges. Do not remove white areas belonging to the product itself. No added shadow, floor, outline or checkerboard. Keep the complete product visible; place it within a transparent canvas with a small 5% transparent breathing margin on each side."
+  },
+  {
+    "id": "pc-ryzen",
+    "nombre": "PC Ryzen 7 5700G",
+    "categoria": "PC de escritorio",
+    "archivo": "pc-ryzen.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Black gaming desktop tower with RGB fans monitor keyboard and mouse bundle. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "pc-intel-i5",
+    "nombre": "PC Intel Core i5",
+    "categoria": "PC de escritorio",
+    "archivo": "pc-intel-i5.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Black office desktop tower monitor keyboard and mouse bundle. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "logitech-m170",
+    "nombre": "Logitech M170",
+    "categoria": "Periféricos",
+    "archivo": "logitech-m170.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Logitech M170 black wireless mouse. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "logitech-g203",
+    "nombre": "Logitech G203",
+    "categoria": "Periféricos",
+    "archivo": "logitech-g203.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Logitech G203 black gaming mouse. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "redragon-kumara-k552",
+    "nombre": "Redragon Kumara K552",
+    "categoria": "Periféricos",
+    "archivo": "redragon-kumara-k552.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Redragon Kumara K552 black tenkeyless keyboard. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "hyperx-cloud-stinger2",
+    "nombre": "HyperX Cloud Stinger 2",
+    "categoria": "Periféricos",
+    "archivo": "hyperx-cloud-stinger2.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. HyperX Cloud Stinger 2 black gaming headphones. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "lg-ultragear-24",
+    "nombre": "LG UltraGear 24 pulgadas",
+    "categoria": "Periféricos",
+    "archivo": "lg-ultragear-24.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. LG UltraGear black gaming monitor on stand. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "samsung-essential-24",
+    "nombre": "Samsung Essential 24 pulgadas",
+    "categoria": "Periféricos",
+    "archivo": "samsung-essential-24.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Samsung Essential slim black monitor. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  },
+  {
+    "id": "logitech-c920",
+    "nombre": "Logitech C920",
+    "categoria": "Periféricos",
+    "archivo": "logitech-c920.webp",
+    "estado": "generada",
+    "prompt": "Use case: product-mockup. Generate ONE photorealistic ecommerce product cutout for a computer shop student demo. Logitech C920 black webcam. Large centered subject filling 85% of a 4:3 canvas, completely visible including all edges. Neutral professional studio illumination, soft highlights that show black hardware on a dark interface. Real transparent alpha background, no floor, no scene, no poster, no advertising badges, no floating labels, no border, no checkerboard pattern. Only brand markings printed on the actual object. Clear accurate-looking manufactured geometry; this is illustrative demo imagery. No extra accessories unless the subject is a desktop bundle.",
+    "herramienta": "image_gen",
+    "transparencia": true
+  }
+]
