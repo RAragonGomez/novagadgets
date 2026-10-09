@@ -1,53 +1,10 @@
-import imagenLaptops from '../../assets/images/categories/laptops.webp'
-import imagenPc from '../../assets/images/categories/pc-escritorio.webp'
-import imagenComponentes from '../../assets/images/categories/componentes.webp'
-import imagenPerifericos from '../../assets/images/categories/perifericos.webp'
 import TarjetaProducto from '../../components/ProductCard/TarjetaProducto'
-import imagenIntel from '../../assets/images/products/intel-core-i7.webp'
-import imagenKingston from '../../assets/images/products/kingston-fury-ram.webp'
-import imagenGeForce from '../../assets/images/products/geforce-rtx.webp'
-import imagenAsus from '../../assets/images/products/asus-prime-placa.webp'
+import { productos } from '../../data/productos'
+import { categorias } from '../../data/categorias'
 import './Inicio.css'
 
-// Cada objeto contiene los datos de una categoría.
-const categorias = [
-    { id: 'laptops', nombre: 'Laptops', imagen: imagenLaptops },
-    { id: 'pc-escritorio', nombre: 'PC de escritorio', imagen: imagenPc },
-    { id: 'componentes', nombre: 'Componentes', imagen: imagenComponentes },
-    { id: 'perifericos', nombre: 'Periféricos', imagen: imagenPerifericos },
-]
-
-// Productos de ejemplo del wireframe; el precio se guarda como número.
-const productosDestacados = [
-    {
-        id: 'intel-core-i7',
-        nombre: 'Intel Core i7-12700F',
-        descripcion: 'LGA1700 / 12 núcleos',
-        precio: 600,
-        imagen: imagenIntel,
-    },
-    {
-        id: 'kingston-fury-ram',
-        nombre: 'Kingston Fury Beast',
-        descripcion: '16 GB DDR4 / 3200 MHz',
-        precio: 240,
-        imagen: imagenKingston,
-    },
-    {
-        id: 'geforce-rtx',
-        nombre: 'GeForce RTX 5060 Ti',
-        descripcion: '8 GB / Tarjeta gráfica',
-        precio: 1400,
-        imagen: imagenGeForce,
-    },
-    {
-        id: 'asus-prime-placa',
-        nombre: 'Asus Prime H610M-K D4',
-        descripcion: 'LGA1700 / DDR4',
-        precio: 380,
-        imagen: imagenAsus,
-    },
-]
+// Tomamos los destacados del catálogo compartido.
+const productosDestacados = productos.filter((producto) => producto.destacado)
 
 const Inicio = () => {
     return (
@@ -85,6 +42,19 @@ const Inicio = () => {
                     ))}
                 </div>
             </section>
+            <div className="inicio__accesos">
+                <section className="inicio__acceso" aria-labelledby="titulo-arma-pc">
+                    <h2 id="titulo-arma-pc">Arma tu PC</h2>
+                    <p>Elige las piezas y revisa el total de tu configuración.</p>
+                    <a href="/arma-tu-pc" className="boton boton--principal">Arma tu PC</a>
+                </section>
+
+                <section className="inicio__acceso" aria-labelledby="titulo-servicios">
+                    <h2 id="titulo-servicios">Servicios técnicos</h2>
+                    <p>Mantenimiento, instalación de software y diagnóstico.</p>
+                    <a href="/servicios" className="boton boton--secundario">Ver servicios</a>
+                </section>
+            </div>
         </div>
     )
 }
