@@ -11,7 +11,7 @@ const Footer = () => {
                     <a href="/" className="footer__logo">
                         <img src={logo} alt="NovaGadgets - Inicio" width="140" height="32" />
                     </a>
-                    <p>© {anio} NovaGadgets</p>
+                    <p>© {anio} NovaGadgets. Todos los derechos reservados.</p>
                 </div>
 
                 <nav className="footer__menu" aria-label="Navegación del pie de página">

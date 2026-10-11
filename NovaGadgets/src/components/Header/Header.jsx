@@ -3,6 +3,7 @@ import './Header.css'
 import logo from '../../assets/brand/nova-gadgets-horizontal.svg'
 import iconoBuscar from '../../assets/icons/Search_Magnifying_Glass.svg'
 import iconoCarrito from '../../assets/icons/Shopping_Cart_01.svg'
+import { obtenerUsuarioActual } from '../../services'
 
 const enlaces = [
     { ruta: '/', texto: 'Inicio' },
@@ -108,10 +109,25 @@ const Header = ({ cantidadCarrito = 0, onAbrirCarrito, onBuscar }) => {
                     </button>
                 </form>
 
-                <button type="button" className="header__carrito" onClick={abrirCarrito}>
-                    <img src={iconoCarrito} alt="" width="18" height="18" />
-                    Carrito <span>({cantidadCarrito})</span>
-                </button>
+                <div className="header__acciones">
+                    <button type="button" className="header__carrito" onClick={abrirCarrito}>
+                        <img src={iconoCarrito} alt="" width="18" height="18" />
+                        Carrito <span>({cantidadCarrito})</span>
+                    </button>
+
+                    <a
+                        className="header__cuenta"
+                        href={obtenerUsuarioActual() ? '/account/datos-personales' : '/account'}
+                        aria-label="Mi cuenta"
+                        title="Mi cuenta"
+                        aria-current={rutaActual.startsWith('/account') ? 'page' : undefined}
+                    >
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none">
+                            <circle cx="12" cy="8" r="3.5" />
+                            <path d="M5 20c.5-3.6 3.2-5.5 7-5.5s6.5 1.9 7 5.5" />
+                        </svg>
+                    </a>
+                </div>
             </div>
             <div className="contenedor header__aviso" role="status">{aviso}</div>
         </header>

@@ -1,0 +1,310 @@
+.perfil {
+    display: block;
+    min-height: max(650px, calc(100dvh - 190px));
+    padding: 28px clamp(16px, 4vw, 48px) 48px;
+}
+
+.perfil__contenido {
+    position: relative;
+    z-index: 1;
+    width: min(1180px, 100%);
+    margin-inline: auto;
+}
+
+.perfil__breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 20px;
+    color: var(--color-texto-secundario);
+    font-size: 13px;
+}
+
+.perfil__breadcrumb a {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 4px;
+}
+
+.perfil__breadcrumb a:hover {
+    color: var(--color-amarillo);
+    text-decoration: underline;
+}
+
+.perfil__breadcrumb [aria-current="page"] {
+    color: var(--color-morado-texto);
+}
+
+.perfil__layout {
+    display: grid;
+    grid-template-columns: minmax(230px, .72fr) minmax(0, 1.8fr);
+    gap: 22px;
+    align-items: start;
+}
+
+.perfil__aside,
+.perfil__panel {
+    border: 1px solid rgb(167 122 214 / 34%);
+    border-radius: 14px;
+    background: rgb(26 29 32 / 84%);
+    box-shadow: 0 20px 56px rgb(0 0 0 / 32%), 0 0 26px rgb(134 81 182 / 12%);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+.perfil__aside {
+    padding: 20px;
+}
+
+.perfil__usuario {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.perfil__avatar {
+    display: grid;
+    width: 46px;
+    height: 46px;
+    flex: 0 0 46px;
+    place-items: center;
+    border: 1px solid var(--color-morado-borde);
+    border-radius: 50%;
+    background: rgb(134 81 182 / 18%);
+    color: var(--color-morado-texto);
+}
+
+.perfil__avatar svg {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5;
+}
+
+.perfil__usuario strong,
+.perfil__usuario small {
+    display: block;
+}
+
+.perfil__usuario strong {
+    font-size: 14px;
+}
+
+.perfil__usuario small {
+    margin-top: 4px;
+    color: var(--color-texto-secundario);
+    font-size: 12px;
+}
+
+.perfil__menu {
+    display: grid;
+    gap: 6px;
+    margin-top: 16px;
+}
+
+.perfil__menu a {
+    display: flex;
+    min-height: 46px;
+    align-items: center;
+    gap: 11px;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: var(--color-texto-secundario);
+    font-size: 14px;
+    text-decoration: none;
+    transition: background .18s ease, color .18s ease, border-color .18s ease;
+}
+
+.perfil__menu a:hover,
+.perfil__menu a[aria-current="page"] {
+    border-color: rgb(167 122 214 / 34%);
+    background: rgb(134 81 182 / 18%);
+    color: var(--color-texto);
+}
+
+.perfil__menu a[aria-current="page"] {
+    box-shadow: inset 3px 0 var(--color-amarillo);
+}
+
+.perfil__menu .perfil__salir {
+    margin-top: 10px;
+    border-top: 1px solid var(--color-borde);
+    border-radius: 0 0 7px 7px;
+    color: #ffb0b0;
+}
+
+.perfil__menu svg {
+    width: 19px;
+    height: 19px;
+    flex: 0 0 19px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.6;
+}
+
+.perfil__panel {
+    min-height: 400px;
+    padding: clamp(22px, 4vw, 40px);
+}
+
+.perfil__eyebrow {
+    margin: 0 0 8px;
+    color: var(--color-morado-texto);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.perfil__panel h1 {
+    margin: 0;
+    font-size: clamp(26px, 4vw, 34px);
+    letter-spacing: -.03em;
+}
+
+.perfil__descripcion {
+    margin: 9px 0 28px;
+    color: var(--color-texto-secundario);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.perfil__formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 9px;
+}
+
+.perfil__formulario--personal {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+}
+
+.perfil__campo {
+    display: grid;
+    min-width: 0;
+    gap: 7px;
+    margin-bottom: 8px;
+}
+
+.perfil__campo--completo {
+    grid-column: 1 / -1;
+}
+
+.perfil__formulario > label {
+    margin-top: 6px;
+}
+
+.perfil__formulario label {
+    color: var(--color-texto);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.perfil__formulario input {
+    width: 100%;
+    min-height: 46px;
+    padding: 11px 13px;
+    border: 1px solid #596168;
+    border-radius: 6px;
+    background: rgb(15 17 19 / 76%);
+    color: var(--color-texto);
+    font: inherit;
+    font-size: 14px;
+}
+
+.perfil__formulario input::placeholder {
+    color: #929aa1;
+}
+
+.perfil__formulario input:focus-visible {
+    border-color: var(--color-morado-borde);
+    outline: 2px solid rgb(167 122 214 / 35%);
+    outline-offset: 1px;
+}
+
+.perfil__acciones {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.perfil__guardar {
+    min-height: 46px;
+    padding: 0 24px;
+    border: 1px solid var(--color-amarillo);
+    border-radius: 999px;
+    background: var(--color-amarillo);
+    box-shadow: 0 8px 26px rgb(252 232 3 / 15%);
+    color: var(--color-texto-sobre-amarillo);
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.perfil__guardar:hover {
+    box-shadow: 0 10px 30px rgb(252 232 3 / 30%);
+    transform: translateY(-1px);
+}
+
+.perfil__aviso {
+    flex: 1 1 220px;
+    margin: 0;
+    color: var(--color-aviso);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+    .perfil {
+        padding: 22px 16px 36px;
+    }
+
+    .perfil__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .perfil__aside {
+        padding: 16px;
+    }
+
+    .perfil__menu {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .perfil__menu .perfil__salir {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .perfil__formulario--personal {
+        grid-template-columns: 1fr;
+    }
+
+    .perfil__campo--completo {
+        grid-column: auto;
+    }
+
+    .perfil__menu {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .perfil__menu a,
+    .perfil__guardar {
+        transition: none;
+    }
+}

@@ -1,6 +1,12 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     border-bottom: 1px solid var(--color-borde);
     padding: 14px 0;
+    background: rgb(21 23 25 / 94%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .header__contenido {
@@ -78,6 +84,7 @@
 
 .header__busqueda button,
 .header__carrito,
+.header__cuenta,
 .header__boton-menu {
     display: inline-flex;
     align-items: center;
@@ -102,6 +109,34 @@
 .header__boton-menu {
     padding: 8px 14px;
     white-space: nowrap;
+}
+
+.header__acciones {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__cuenta {
+    display: inline-grid;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    place-items: center;
+    border: 1px solid var(--color-morado-borde);
+    border-radius: 6px;
+    color: var(--color-morado-texto);
+    text-decoration: none;
+}
+
+.header__cuenta svg {
+    width: 22px;
+    height: 22px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.7;
 }
 
 .header__carrito {
@@ -134,7 +169,14 @@
 
     .header__busqueda button:hover,
     .header__carrito:hover,
+    .header__cuenta:hover,
     .header__boton-menu:hover {
+        background: var(--color-morado);
+        color: var(--color-texto-sobre-morado);
+        box-shadow: var(--luz-morada);
+    }
+
+    .header__cuenta[aria-current='page'] {
         background: var(--color-morado);
         color: var(--color-texto-sobre-morado);
         box-shadow: var(--luz-morada);

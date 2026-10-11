@@ -1,0 +1,64 @@
+.cuenta--registro {
+    min-height: max(720px, calc(100dvh - 190px));
+}
+
+.cuenta__tarjeta--registro {
+    width: min(100%, 540px);
+    padding: 28px clamp(24px, 5vw, 38px) 24px;
+}
+
+.cuenta__tarjeta--registro .cuenta__icono-perfil {
+    width: 46px;
+    height: 46px;
+    margin: 20px auto 12px;
+}
+
+.cuenta__tarjeta--registro .cuenta__icono-perfil svg {
+    width: 24px;
+    height: 24px;
+}
+
+.cuenta__tarjeta--registro .cuenta__descripcion {
+    margin-bottom: 18px;
+}
+
+.cuenta__formulario--registro {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px 12px;
+}
+
+.cuenta__grupo {
+    display: grid;
+    min-width: 0;
+    gap: 6px;
+}
+
+.cuenta__grupo--completo,
+.cuenta__formulario--registro .cuenta__boton,
+.cuenta__formulario--registro .cuenta__aviso {
+    grid-column: 1 / -1;
+}
+
+.cuenta__formulario--registro .cuenta__campo {
+    margin-bottom: 3px;
+}
+
+.cuenta__tarjeta--registro .cuenta__separador {
+    margin-top: 8px;
+}
+
+@media (max-width: 520px) {
+    .cuenta--registro {
+        min-height: max(760px, calc(100dvh - 150px));
+    }
+
+    .cuenta__formulario--registro {
+        grid-template-columns: 1fr;
+    }
+
+    .cuenta__grupo--completo,
+    .cuenta__formulario--registro .cuenta__boton,
+    .cuenta__formulario--registro .cuenta__aviso {
+        grid-column: auto;
+    }
+}

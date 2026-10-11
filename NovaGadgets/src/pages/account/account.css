@@ -1,0 +1,286 @@
+.cuenta {
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    min-height: max(560px, calc(100dvh - 190px));
+    place-items: center;
+    overflow: hidden;
+    padding: 44px 18px;
+    background: var(--color-fondo);
+}
+
+.cuenta__fondo,
+.cuenta__velo {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    pointer-events: none;
+}
+
+.cuenta__fondo {
+    inset: -14px;
+    background-image: url('../../assets/images/account-login-bg.jpg');
+    background-position: center 55%;
+    background-size: cover;
+    filter: blur(7px) saturate(.8);
+    opacity: .52;
+    transform: scale(1.04);
+}
+
+.cuenta__velo {
+    background: linear-gradient(115deg, rgb(13 15 18 / 82%), rgb(21 23 25 / 62%) 52%, rgb(65 34 91 / 48%));
+}
+
+.cuenta__tarjeta {
+    width: min(100%, 430px);
+    padding: 34px clamp(24px, 6vw, 42px) 30px;
+    border: 1px solid rgb(167 122 214 / 46%);
+    border-radius: 16px;
+    background: rgb(26 29 32 / 82%);
+    box-shadow: 0 28px 80px rgb(0 0 0 / 48%), 0 0 34px rgb(134 81 182 / 20%);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.cuenta__marca {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--color-texto);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: -.04em;
+    text-decoration: none;
+}
+
+.cuenta__marca > span:last-child > span {
+    color: var(--color-amarillo);
+}
+
+.cuenta__marca-icono {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border: 1px solid var(--color-morado-borde);
+    border-radius: 7px;
+    color: var(--color-amarillo);
+    font-size: 17px;
+    font-style: normal;
+}
+
+.cuenta__marca-icono img {
+    display: block;
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.cuenta__icono-perfil {
+    display: grid;
+    width: 54px;
+    height: 54px;
+    place-items: center;
+    margin: 30px auto 18px;
+    border: 1px solid var(--color-morado-borde);
+    border-radius: 50%;
+    background: rgb(134 81 182 / 14%);
+    box-shadow: 0 0 24px rgb(134 81 182 / 24%);
+    color: var(--color-morado-texto);
+}
+
+.cuenta__icono-perfil svg {
+    width: 28px;
+    height: 28px;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5;
+}
+
+.cuenta__eyebrow {
+    margin: 0 0 7px;
+    color: var(--color-morado-texto);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cuenta__tarjeta h1 {
+    margin: 0;
+    font-size: clamp(26px, 6vw, 32px);
+    letter-spacing: -.03em;
+    text-align: center;
+}
+
+.cuenta__descripcion {
+    margin: 9px 0 26px;
+    color: var(--color-texto-secundario);
+    font-size: 14px;
+    text-align: center;
+}
+
+.cuenta__formulario {
+    display: grid;
+    gap: 9px;
+}
+
+.cuenta__formulario label {
+    color: var(--color-texto);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cuenta__campo {
+    position: relative;
+    margin-bottom: 9px;
+}
+
+.cuenta__campo svg {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    width: 18px;
+    height: 18px;
+    color: var(--color-texto-secundario);
+    pointer-events: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.6;
+    transform: translateY(-50%);
+}
+
+.cuenta__campo input {
+    width: 100%;
+    min-height: 48px;
+    padding: 11px 14px 11px 42px;
+    border: 1px solid #596168;
+    border-radius: 6px;
+    background: rgb(15 17 19 / 76%);
+    color: var(--color-texto);
+    font: inherit;
+    font-size: 14px;
+}
+
+.cuenta__campo input::placeholder {
+    color: #929aa1;
+}
+
+.cuenta__campo input:focus-visible {
+    border-color: var(--color-morado-borde);
+    outline: 2px solid rgb(167 122 214 / 35%);
+    outline-offset: 1px;
+}
+
+.cuenta__etiqueta-con-enlace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.cuenta__etiqueta-con-enlace button {
+    padding: 4px 0;
+    border: 0;
+    background: transparent;
+    color: var(--color-morado-texto);
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+}
+
+.cuenta__etiqueta-con-enlace button:hover {
+    color: var(--color-amarillo);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.cuenta__boton {
+    min-height: 48px;
+    margin-top: 5px;
+    border: 1px solid var(--color-amarillo);
+    border-radius: 999px;
+    background: var(--color-amarillo);
+    box-shadow: 0 8px 26px rgb(252 232 3 / 16%);
+    color: var(--color-texto-sobre-amarillo);
+    cursor: pointer;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    transition: box-shadow .2s ease, transform .2s ease;
+}
+
+.cuenta__boton:hover {
+    box-shadow: 0 10px 32px rgb(252 232 3 / 32%);
+    transform: translateY(-1px);
+}
+
+.cuenta__aviso {
+    min-height: 18px;
+    margin: 0;
+    color: var(--color-aviso);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.cuenta__separador {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 13px 0 8px;
+    color: var(--color-texto-secundario);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.cuenta__separador::before,
+.cuenta__separador::after {
+    height: 1px;
+    flex: 1;
+    background: var(--color-borde);
+    content: '';
+}
+
+.cuenta__explorar {
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: var(--color-texto);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cuenta__explorar span {
+    color: var(--color-amarillo);
+    transition: transform .2s ease;
+}
+
+.cuenta__explorar:hover span {
+    transform: translateX(4px);
+}
+
+@media (max-width: 480px) {
+    .cuenta {
+        min-height: max(540px, calc(100dvh - 150px));
+        padding: 28px 14px;
+    }
+
+    .cuenta__tarjeta {
+        padding: 28px 22px 24px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .cuenta__boton,
+    .cuenta__explorar span {
+        transition: none;
+    }
+}
