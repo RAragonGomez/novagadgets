@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { actualizarDatosPersonales, cambiarClave, cerrarSesion } from '../../services'
+import PasswordInput from '../../components/PasswordInput/PasswordInput'
 import './account.css'
 import './accountSettings.css'
 
@@ -101,13 +102,13 @@ const AccountSettingsPage = ({ vista = 'personal', usuario }) => {
                         {esSeguridad ? (
                             <form className="perfil__formulario" onSubmit={guardarCambios}>
                                 <label htmlFor="clave-actual">Contraseña actual</label>
-                                <input id="clave-actual" name="clave-actual" type="password" autoComplete="current-password" placeholder="Ingresa tu contraseña actual" required />
+                                <PasswordInput id="clave-actual" name="clave-actual" autoComplete="current-password" placeholder="Ingresa tu contraseña actual" />
 
                                 <label htmlFor="nueva-clave">Nueva contraseña</label>
-                                <input id="nueva-clave" name="nueva-clave" type="password" autoComplete="new-password" placeholder="Mínimo 8 caracteres" minLength="8" required />
+                                <PasswordInput id="nueva-clave" name="nueva-clave" autoComplete="new-password" placeholder="Mínimo 8 caracteres" minLength="8" />
 
                                 <label htmlFor="confirmar-clave">Confirmar nueva contraseña</label>
-                                <input id="confirmar-clave" name="confirmar-clave" type="password" autoComplete="new-password" placeholder="Vuelve a escribir la contraseña" minLength="8" required />
+                                <PasswordInput id="confirmar-clave" name="confirmar-clave" autoComplete="new-password" placeholder="Vuelve a escribir la contraseña" minLength="8" />
 
                                 <div className="perfil__acciones">
                                     <button className="perfil__guardar" type="submit">Actualizar contraseña</button>

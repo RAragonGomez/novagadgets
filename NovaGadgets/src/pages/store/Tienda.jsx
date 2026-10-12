@@ -2,7 +2,7 @@ import TarjetaProducto from '../../components/ProductCard/TarjetaProducto'
 import { productos } from '../../data/productos'
 import './Tienda.css'
 
-const Tienda = () => {
+const Tienda = ({ onAgregar }) => {
     return (
         <div className="contenedor tienda">
             <div className="tienda__presentacion">
@@ -17,7 +17,7 @@ const Tienda = () => {
 
             <section className="tienda__productos" aria-label="Catálogo de productos">
                 {productos.map((producto) => (
-                    <TarjetaProducto key={producto.id} producto={producto} />
+                    <TarjetaProducto key={producto.id} producto={producto} onAgregar={onAgregar} />
                 ))}
             </section>
         </div>

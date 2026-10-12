@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { crearCuenta as registrarCuenta } from '../../services'
+import PasswordInput from '../../components/PasswordInput/PasswordInput'
 import './account.css'
 import './createAccount.css'
 
@@ -91,7 +92,7 @@ const CreateAccountPage = () => {
                                 <rect x="4" y="10" width="16" height="11" rx="2" />
                                 <path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3" />
                             </svg>
-                            <input id="registro-clave" name="clave" type="password" placeholder="Mínimo 8 caracteres" autoComplete="new-password" minLength="8" required />
+                            <PasswordInput id="registro-clave" name="clave" placeholder="Mínimo 8 caracteres" autoComplete="new-password" minLength="8" />
                         </div>
                     </div>
 
@@ -102,7 +103,7 @@ const CreateAccountPage = () => {
                                 <rect x="4" y="10" width="16" height="11" rx="2" />
                                 <path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3" />
                             </svg>
-                            <input id="registro-confirmar-clave" name="confirmar-clave" type="password" placeholder="Repite tu contraseña" autoComplete="new-password" minLength="8" required />
+                            <PasswordInput id="registro-confirmar-clave" name="confirmar-clave" placeholder="Repite tu contraseña" autoComplete="new-password" minLength="8" />
                         </div>
                     </div>
 

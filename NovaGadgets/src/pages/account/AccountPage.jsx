@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { iniciarSesion } from '../../services'
+import PasswordInput from '../../components/PasswordInput/PasswordInput'
 import './account.css'
 
 const AccountPage = () => {
@@ -59,7 +60,8 @@ const AccountPage = () => {
                             <rect x="4" y="10" width="16" height="11" rx="2" />
                             <path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3" />
                         </svg>
-                        <input id="cuenta-clave" name="clave" type="password" placeholder="Ingresa tu contraseña" autoComplete="current-password" required />
+
+                        <PasswordInput id="cuenta-clave" name="clave" placeholder="Ingresa tu contraseña" autoComplete="current-password" />
                     </div>
 
                     <button className="cuenta__boton" type="submit">Entrar a mi cuenta</button>

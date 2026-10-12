@@ -139,7 +139,7 @@
     margin-bottom: 9px;
 }
 
-.cuenta__campo svg {
+.cuenta__campo > svg {
     position: absolute;
     top: 50%;
     left: 13px;
@@ -283,4 +283,19 @@
     .cuenta__explorar span {
         transition: none;
     }
+}
+
+.cuenta__campo input {
+  padding-right: 44px;
+}
+
+.cuenta__ver-clave {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  border: 0;
+  background: transparent;
+  color: var(--color-texto-secundario);
+  cursor: pointer;
+  transform: translateY(-50%);
 }

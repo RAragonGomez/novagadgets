@@ -4,6 +4,7 @@ import logo from '../../assets/brand/nova-gadgets-horizontal.svg'
 import iconoBuscar from '../../assets/icons/Search_Magnifying_Glass.svg'
 import iconoCarrito from '../../assets/icons/Shopping_Cart_01.svg'
 import { obtenerUsuarioActual } from '../../services'
+import { useCart } from '../../context/CartContext'
 
 const enlaces = [
     { ruta: '/', texto: 'Inicio' },
@@ -14,7 +15,8 @@ const enlaces = [
     { ruta: '/contacto', texto: 'Contacto' },
 ]
 
-const Header = ({ cantidadCarrito = 0, onAbrirCarrito, onBuscar }) => {
+const Header = ({ onBuscar }) => {
+    const { cantidadTotal, abrir } = useCart()
     const [menuAbierto, setMenuAbierto] = useState(false)
     const [busqueda, setBusqueda] = useState('')
     const [aviso, setAviso] = useState('')
@@ -36,15 +38,6 @@ const Header = ({ cantidadCarrito = 0, onAbrirCarrito, onBuscar }) => {
             onBuscar(texto)
         } else {
             setAviso('La búsqueda estará disponible cuando la tienda esté lista.')
-        }
-    }
-
-    const abrirCarrito = () => {
-        if (onAbrirCarrito) {
-            setAviso('')
-            onAbrirCarrito()
-        } else {
-            setAviso('El carrito todavía no está disponible.')
         }
     }
 
@@ -110,9 +103,9 @@ const Header = ({ cantidadCarrito = 0, onAbrirCarrito, onBuscar }) => {
                 </form>
 
                 <div className="header__acciones">
-                    <button type="button" className="header__carrito" onClick={abrirCarrito}>
+                    <button type="button" className="header__carrito" onClick={abrir} aria-label={`Abrir carrito, ${cantidadTotal} productos`}>
                         <img src={iconoCarrito} alt="" width="18" height="18" />
-                        Carrito <span>({cantidadCarrito})</span>
+                        Carrito <span>({cantidadTotal})</span>
                     </button>
 
                     <a

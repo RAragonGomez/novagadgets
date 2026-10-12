@@ -6,7 +6,7 @@ import './Inicio.css'
 // Tomamos los destacados del catálogo compartido.
 const productosDestacados = productos.filter((producto) => producto.destacado)
 
-const Inicio = () => {
+const Inicio = ({ onAgregar }) => {
     return (
         <div className="contenedor inicio">
             <div className="inicio__presentacion">
@@ -38,7 +38,7 @@ const Inicio = () => {
                 </div>
                 <div className="inicio__lista-productos">
                     {productosDestacados.map((producto) => (
-                        <TarjetaProducto key={producto.id} producto={producto} />
+                        <TarjetaProducto key={producto.id} producto={producto} onAgregar={onAgregar} />
                     ))}
                 </div>
             </section>
