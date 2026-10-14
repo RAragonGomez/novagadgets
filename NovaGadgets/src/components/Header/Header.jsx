@@ -18,7 +18,11 @@ const enlaces = [
 const Header = ({ onBuscar }) => {
     const { cantidadTotal, abrir } = useCart()
     const [menuAbierto, setMenuAbierto] = useState(false)
-    const [busqueda, setBusqueda] = useState('')
+    const [busqueda, setBusqueda] = useState(() =>
+        window.location.pathname === '/tienda'
+            ? new URLSearchParams(window.location.search).get('busqueda') || ''
+            : ''
+    )
     const [aviso, setAviso] = useState('')
     const botonMenu = useRef(null)
     const rutaActual = window.location.pathname
@@ -32,12 +36,12 @@ const Header = ({ onBuscar }) => {
             return
         }
 
-        // La tienda recibirá el texto cuando conectemos su función de búsqueda.
         if (onBuscar) {
             setAviso('')
             onBuscar(texto)
         } else {
-            setAviso('La búsqueda estará disponible cuando la tienda esté lista.')
+            const parametros = new URLSearchParams({ busqueda: texto })
+            window.location.assign(`/tienda?${parametros.toString()}`)
         }
     }
 
